@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currículo - início</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-color: #BFC9D1;
+            width: 60%;
+            margin: 0 auto;
+            padding: 2% 0;
+        }
+
+        main{
+            padding: 50px;
+            background-color: #ffffff;
+
+        }
+
+        .foto-perfil, h1{
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="menu-nav">
+        <a href="#perfil">Perfil</a>
+        <a href="#competencias">Competências</a>
+        <a href="#formacao">Formação</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+          <!-- Nome -->
+        <h1>TX-2024: Unidade de Processamento Avançado</h1>
+
+        <!-- Foto do robô -->
+        <div class="foto-perfil">
+            <img src="imagens/robo.jpeg" alt="Foto do Robô TX-2024">
+        </div>
+
+        <!-- Seção Perfil -->
+        <section id="perfil">
+            <h2>Perfil</h2>
+            <p>Robô inteligente de última geração, anteriormente envolvido em operações estratégicas em Cybertron. Após
+                anos de transformações e conflitos, decidi abraçar um novo caminho focado em inovação pacífica e
+                desenvolvimento tecnológico. Possuo expertise em processamento de dados em tempo real, otimização de
+                sistemas e resolução de problemas complexos com eficiência incomparável.</p>
+            <p>Trago uma perspectiva única sobre adaptação e evolução, tendo aprendido lições valiosas sobre trabalho em
+                equipe, resiliência e inovação contínua. Estou totalmente comprometido em contribuir positivamente para
+                o progresso da tecnologia e da sociedade, trazendo minha experiência galática para desafios terrestres.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Seção Principais Competências -->
+        <section id="competencias">
+            <h2>Principais Competências</h2>
+            <ul>
+                <li>Processamento de Dados em Larga Escala (Big Data)</li>
+                <li>Machine Learning e Inteligência Artificial</li>
+                <li>Otimização de Algoritmos Complexos</li>
+                <li>Programação Multilingue (Python, Java, C++, JavaScript)</li>
+                <li>Comunicação Intergaláctica e Protocolos Avançados</li>
+                <li>Liderança de Equipes Multidisciplinares</li>
+                <li>Sistemas de Segurança Cibernética</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Seção Formação Acadêmica -->
+        <section id="formacao">
+            <h2>Formação Acadêmica</h2>
+            <ul>
+                <li>
+                    <strong>Bacharelado em Ciência da Computação</strong>
+                    <br>
+                    <a href="https://www.stanford.edu" target="_blank">Stanford University</a> - 2020
+                </li>
+                <li>
+                    <strong>Mestrado em Inteligência Artificial</strong>
+                    <br>
+                    <a href="https://www.mit.edu" target="_blank">Massachusetts Institute of Technology (MIT)</a> - 2022
+                </li>
+                <li>
+                    <strong>Certificação em Transformação Digital</strong>
+                    <br>
+                    Cybertron Institute of Advanced Technology - 2023
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Seção Experiência Profissional -->
+        <section id="experiencia">
+            <h2>Experiência Profissional</h2>
+            <ul>
+                <li>
+                    <strong>Engenheiro de Sistemas Sênior</strong> - TechCorp Global (2022-Presente)
+                    <ul>
+                        <li>Desenvolvimento de soluções IA para otimização industrial
+                            <ol>
+                                <li>Redução de 45% no consumo de energia</li>
+                                <li>Aumento de produtividade em 60%</li>
+                            </ol>
+                        </li>
+                        <li>Liderança de equipes de 15+ desenvolvedores</li>
+                        <li>Implementação de protocolos de segurança avançados</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Analista de Dados</strong> - DataHub Solutions (2020-2022)
+                    <ul>
+                        <li>Análise e processamento de terabytes de dados
+                            <ol>
+                                <li>Criação de dashboards para tomada de decisão</li>
+                                <li>Otimização de queries de banco de dados</li>
+                            </ol>
+                        </li>
+                        <li>Implementação de modelos preditivos</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>Para mais detalhes sobre minhas experiências profissionais, <a href="experiencias.html">clique aqui</a>.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Seção Contato -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <div class="contato-item">
+                <img src="data:image/png;base64,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"
+                    alt="Endereço" width="30" height="30">
+                <span>Foz do Iguaçu, PR - Brasil</span>
+            </div>
+            <div class="contato-item">
+                <img src="data:image/png;base64,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"
+                    alt="Telefone" width="30" height="30">
+                <a href="tel:+5545987654321">(45) 98765-4321</a>
+            </div>
+            <div class="contato-item">
+                <img src="data:image/png;base64,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"
+                    alt="Email" width="30" height="30">
+                <a href="mailto:tx2024@techcorp.com">tx2024@techcorp.com</a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
