@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            width: 60%;
+            margin: 0 auto;
+            padding: 2% 0;
+            background-color: #BFC9D1;
+            text-align: center;
+        }
+
+
+        main {
+            padding: 50px;
+            background-color: #ffffff;
+            text-align: center;
+
+        }
+
+
+        tfoot {
+            background-color: #2c5e77;
+            color: white;
+            text-align: center;
+        }
+
+        tbody {
+            background-color: #e4f0f5;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(140 140 140);
+            font-family: sans-serif;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            text-align: center;
+
+            margin: 0 auto;
+        }
+
+        caption {
+            caption-side: bottom;
+            text-align: center;
+            
+        }
+
+        th,
+        td {
+            border: 1px solid rgb(160 160 160);
+            padding: 8px 10px;
+            text-align: center;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        iframe {
+
+            border: solid 10px rgb(91, 91, 91);
+            text-align: center;
+
+        }
+        .table,tr,td{
+           text-align: center; 
+        }
+        
+        
+    </style>
+
+</head>
+
+<body>
+
+    <main>
+        <h1>XP</h1>
+
+        <table>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+            </tr>
+        </table>
+
+        <h2>Figura</h2>
+
+        <figure>
+            <img width="560" height="315" src="imagens/robo2.jpg" alt="Elephant at sunset" />
+            <figcaption>An elephant at sunset</figcaption>
+        </figure>
+
+        <h2>robocop</h2>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_DLGUBC89CY?si=QHWwB2R5QTxkr5gg"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+        <br><br>
+
+
+        <a href="index.html"> voltar </a>
+    </main>
+
+
+
+
+</body>
+
+</html>
